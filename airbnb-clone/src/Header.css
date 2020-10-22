@@ -1,5 +1,54 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+    top: 0;
+    background: white;
+    z-index: 100;
+    /* width: 100%; */
+    padding: 0 15% !important;
+}
+.header > img {
+    margin: 0;
+}
 .header__icon{
     object-fit: contain;
     height: 100px;
     margin-left: 20px;
 }
+.header__center{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: fit-content;
+    padding: 10px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+
+}
+.header__center > input{
+    border: none;
+    /* width: 250px; */
+}
+.header__right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.MuiButtonBase-root {
+    border-radius: 22px !important;
+    padding: 12px !important;
+    text-transform: none;
+}
+.MuiAvatar-root{
+    margin-left: 5px;
+}
+.nowrap{
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+}
+
