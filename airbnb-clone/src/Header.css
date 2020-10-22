@@ -30,6 +30,7 @@
 }
 .header__center > input{
     border: none;
+    outline: none;
     /* width: 250px; */
 }
 .header__right{
